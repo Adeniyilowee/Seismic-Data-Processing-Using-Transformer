@@ -2,9 +2,9 @@ import os
 import torch
 from torch import nn
 from tqdm.auto import tqdm
-from Storseismic.pytorchtools import EarlyStopping # https://github.com/Bjarten/early-stopping-pytorch
-from Storseismic.train_loop import *
-from Storseismic.test_loop import *
+from src.pytorchtools import EarlyStopping # https://github.com/Bjarten/early-stopping-pytorch
+from src.train_loop import *
+from src.test_loop import *
 
 
 def run(model, train_dataloader, test_dataloader, device, config):

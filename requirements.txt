@@ -1,0 +1,5 @@
+requests==2.26.0
+torch
+torchvision
+tqdm
+scipy
