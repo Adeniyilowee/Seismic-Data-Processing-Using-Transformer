@@ -3,3 +3,4 @@ torch
 torchvision
 tqdm
 scipy
+pandas
